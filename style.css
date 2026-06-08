@@ -1,22 +1,17 @@
 body {
-    font-family: Arial;
     margin: 0;
-    background: #0f172a;
+    font-family: Arial;
+    background: #0b1220;
     color: white;
 }
 
-header {
-    text-align: center;
-    padding: 40px;
-    background: #1e3a8a;
-}
-
+/* NAV */
 nav {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     background: #111827;
-    padding: 10px;
+    padding: 15px;
 }
 
 nav a {
@@ -24,13 +19,53 @@ nav a {
     text-decoration: none;
 }
 
+/* HEADER */
+header {
+    text-align: center;
+    padding: 60px;
+    background: #1e3a8a;
+}
+
+/* SECTIONS */
 section {
     padding: 40px;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
+/* GALLERY */
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+/* CARD */
+.card {
+    background: #1f2937;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* BUTTON */
 button {
     padding: 10px;
     margin: 5px;
+}
+
+/* NIGHT MODE */
+.night {
+    background: black;
+    color: white;
+}
+
+/* READING MODE */
+.reading {
+    font-size: 20px;
+    line-height: 1.8;
 }
